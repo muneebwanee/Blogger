@@ -1,6 +1,6 @@
 <p align="center">+
   
-## For JavaScripts/Animation.js
+## For #1 JavaScripts/Animation.js
 
 ### Installation :
 
@@ -24,6 +24,41 @@ a:hover{cursor:url(&quot;https://i.imgur.com/V7YecMc.png&quot;), auto;}
 
 </style>
 ```
+
+## #2 Add Contact Us Page to Your Blog
+
+### Installation :
+
+#### * 1. First oppen your blogger Dashboard, And scroll to your blog you want to add the page.
+#### * 2. Now, Click on the page tab and create a new page.
+#### * 3. Now, name your page with title "Contact" or "Contact Us".
+#### * 4. Switch to HTML Mode by pressing "</>" placed on top left corner and then paste the code below.
+
+## Code
+```
+     /* Contact Us Page by muneb.rf.gd */
+<div class="ContactForm">
+  <form name="contact-form">
+    <div class="input-area">
+      <label>Your Name</label><input class="contact-form-name" id="ContactForm1_contact-form-name" name="name" type="text" value="" /></div>
+    <div class="input-area">
+      <label>Your Email<span>*</span></label><input class="contact-form-email" id="ContactForm1_contact-form-email" name="email" type="text" value="" /></div>
+    <div class="input-area">
+      <label>Message<span>*</span></label><textarea class="contact-form-email-message" id="ContactForm1_contact-form-email-message" name="email-message"></textarea></div>
+    <div class="input-area">
+      <input class="contact-form-button contact-form-button-submit" id="ContactForm1_contact-form-submit" type="button" value="Send" /></div>
+    <div class="notif-area">
+      <p class="contact-form-error-message" id="ContactForm1_contact-form-error-message"></p>
+      <p class="contact-form-success-message" id="ContactForm1_contact-form-success-message"></p>
+    </div>
+  </form>
+</div>
+<script src="https://www.blogger.com/static/v1/widgets/2271878333-widgets.js"></script><script>//<![CDATA[
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = 'YourBloggerID';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3dYourBloggerID','//www.yourwebsite.com/','YourBloggerID');
+_WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'footer1', null, document.getElementById('ContactForm1'), {'contactFormMessageSendingMsg': 'Sending...', 'contactFormMessageSentMsg': 'Your message has been sent.', 'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.', 'contactFormInvalidEmailMsg': 'A valid email address is required.', 'contactFormEmptyMessageMsg': 'Message field cannot be empty.', 'title': 'Contact Form', 'blogId': '3298730403807983891', 'contactFormNameMsg': 'Name', 'contactFormEmailMsg': 'Email', 'contactFormMessageMsg': 'Message', 'contactFormSendMsg': 'Send', 'submitUrl': 'https://www.blogger.com/contact-form.do'}, 'displayModeFull')); //]]></script>
+```
+#### * 5. Kindly replace "YourBloggerID" with your Blogger ID and "www.yourwebsite.com" with your Blogspot/Website then publish the page.
+
 </p>
 
 <p align="center">
