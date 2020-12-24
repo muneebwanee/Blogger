@@ -2,6 +2,8 @@
   
 ## For JavaScripts/Animation.js
 
+### Installation :
+
 #### * 1. Go To https://blogger.com
 #### * 2. Select your blog.
 #### * 3. Select theme >>>  Always remember to backup first.
