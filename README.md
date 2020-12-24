@@ -8,7 +8,7 @@
 #### * 2. Select your blog.
 #### * 3. Select theme >>>  Always remember to backup first.
 #### * 4. And click On arrow near "Customise" and click on "Edit HTML".
-#### * 5. Now search for "</Body>" then copy and paste CSS And JS Code written below.
+#### * 5. Now search for "< /Body>" then copy and paste CSS And JS Code written below.
 
 ## Code
 ```
@@ -58,6 +58,26 @@ if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null)
 _WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'footer1', null, document.getElementById('ContactForm1'), {'contactFormMessageSendingMsg': 'Sending...', 'contactFormMessageSentMsg': 'Your message has been sent.', 'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.', 'contactFormInvalidEmailMsg': 'A valid email address is required.', 'contactFormEmptyMessageMsg': 'Message field cannot be empty.', 'title': 'Contact Form', 'blogId': '3298730403807983891', 'contactFormNameMsg': 'Name', 'contactFormEmailMsg': 'Email', 'contactFormMessageMsg': 'Message', 'contactFormSendMsg': 'Send', 'submitUrl': 'https://www.blogger.com/contact-form.do'}, 'displayModeFull')); //]]></script>
 ```
 #### * 5. Kindly replace "YourBloggerID" with your Blogger ID and "www.yourwebsite.com" with your Blogspot/Website then publish the page.
+
+## #3 For JavaScripts/Views.js
+
+### Installation :
+
+#### * 1. First oppen your blogger Dashboard, or you can create a new blog for demo only.
+#### * 2. Now go to Theme section an Edit HTML.
+#### * 3. Now search for "<b:if cond='data:top.showAuthor'>" tag {You can also add this anywhere you want}.
+#### * 4. Now add the below code before any "<b:if>" tag {You can also add this anywhere you want}.
+
+## Code
+```
+<b:if cond='data:view.isPost'><i class='fa fa-eye'/> <span id='busuanzi_container_page_pv'style='display:none'><span id='busuanzi_value_page_pv'/> <b>Views</b></span></b:if>
+```
+#### * 5. Now search for "< /Body>" then copy and paste CSS And JS Code written below.
+
+## Code
+```
+<script src='//raw.githack.com/muneebwanee/Blogger/main/JavaScripts/Views.js'/>
+```
 
 </p>
 
