@@ -12,7 +12,7 @@
 
 ## Code
 ```
-<!-- 3D Mouse Cursor by muneb.rf.gd -->
+<!-- Animation by muneb.rf.gd -->
 
 <script src='//raw.githack.com/muneebwanee/Blogger/main/JavaScripts/Animation.js'/>
 
