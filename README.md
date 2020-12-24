@@ -1,6 +1,6 @@
 <p align="center">+
   
-## For #1 JavaScripts/Animation.js
+## #1 For JavaScripts/Animation.js
 
 ### Installation :
 
