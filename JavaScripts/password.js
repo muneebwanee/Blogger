@@ -1,7 +1,7 @@
 <script type="text/javascript">
   //Password Feature by DeepNet
- function verify(){if (document.querySelector('#password').value === 'ok'){document.querySelector('.deepnetloginwrap').classList.add('hidden')}
-else{alert('Password Yang Anda Masukan Salah!');password.setSelectionRange(0,password.value.length)}
+ function verify(){if (document.querySelector('#password').value === 'okay'){document.querySelector('.deepnetloginwrap').classList.add('hidden')}
+else{alert('The Password You Entered is Wrong!');password.setSelectionRange(0,password.value.length)}
 return false}
   const show = () => {
   let password = document.querySelector('#password');
